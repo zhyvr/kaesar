@@ -1,3 +1,3 @@
 ## Kaesar 🔐
 
-Kaesar is Caesar Cipher in Kurdish language.
+Kaesar is Caesar cipher in Kurdish language.
