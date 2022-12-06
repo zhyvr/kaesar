@@ -14,7 +14,6 @@ function encrypt(text, key) {
   }
   return output;
 }
-
 function decrypt(text, key) {
   for (let char of text) {
     if (alphabet.includes(char)) {
@@ -27,8 +26,9 @@ function decrypt(text, key) {
     }
   }
   return output;
-}
-const text = "بردنەوە"; //شتێک بنووسە
+} 
+//شتێک بنووسە
+const text = "بردنەوە";
 const key = 3; //کلیل
 console.log(encrypt(text, key)); // بۆ ئینکریپت
 //console.log(decrypt(text, key)); //بۆ دیکریپت
