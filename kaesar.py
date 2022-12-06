@@ -1,5 +1,5 @@
+#!/usr/bin/env python3
 alphabet = "ئابپتجچحخدرڕزژسشعغفڤقکگلڵمنوۆھەیێ"
-
 def encrypt(text, key):
   output = ""
   for char in text:
